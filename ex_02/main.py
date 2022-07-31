@@ -20,3 +20,7 @@ int_list = convert_to_int(text)
 print(int_list)
 print(max(int_list))
 print(min(int_list))
+
+
+# проверка на инт
+print('123q'.isdigit())
