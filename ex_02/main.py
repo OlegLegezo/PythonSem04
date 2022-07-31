@@ -10,11 +10,13 @@ with open(path, 'r') as f:
     text = f.readline()
 
 # метод для конвертации в инт из строку
+
+
 def convert_to_int(str):
     return [int(x) for x in str.split()]
 
-int_list=convert_to_int(text)
+
+int_list = convert_to_int(text)
 print(int_list)
 print(max(int_list))
 print(min(int_list))
-
